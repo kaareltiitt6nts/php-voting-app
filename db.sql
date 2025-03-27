@@ -154,7 +154,7 @@ CREATE TABLE `logi` (
 CREATE TABLE `tulemused` (
   `haaletuse_id` int(11) NOT NULL,
   `haaletanute_arv` int(11) NOT NULL,
-  `h_alguse_aeg` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `h_alguse_aeg` timestamp NOT NULL,
   `h_lopu_aeg` timestamp NULL DEFAULT NULL,
   `poolte_haaled` int(11) NOT NULL,
   `vastu_haaled` int(11) NOT NULL
