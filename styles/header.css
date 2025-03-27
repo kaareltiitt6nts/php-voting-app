@@ -1,0 +1,36 @@
+header {
+  background-color: white;
+  padding: 0 1rem 0 1rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-title {
+  font-weight: bold;
+  font-size: larger;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: fit-content;
+}
+
+header ul li {
+  list-style-type: none;
+  width: 6rem;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  font-weight: bold;
+}
