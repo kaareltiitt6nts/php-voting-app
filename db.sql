@@ -25,7 +25,7 @@ DELIMITER $$
 --
 -- Procedures
 --
-CREATE DEFINER=`root`@`localhost` PROCEDURE `lisa_haaletajad` ()   BEGIN
+CREATE PROCEDURE `lisa_haaletajad` ()   BEGIN
 DECLARE i INT DEFAULT 1;
 DECLARE suva_nimi VARCHAR(100);
 DECLARE suva_haal ENUM('poolt', 'vastu');
